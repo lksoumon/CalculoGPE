@@ -89,7 +89,7 @@
                     if(tabela.querySelectorAll('[id="span_GRHSRVVNCNUMVINC_00020001"]')[0]){
                         vinculo = tabela.querySelectorAll('[id="span_GRHSRVVNCNUMVINC_00020001"]')[0].innerText.trim();
                     }
-                    
+
                     let tipo = document.getElementById("span_GRHATRTPOPRCDSC_"+itabela+"0001").innerText.trim();
                     CHtotal = CHtotal + CH;
                     //console.log([vinculo,CH,codEscola,escola,processo,tipo,funcao,ini,fin]);
@@ -187,7 +187,7 @@
                     CHtotal = CHtotal + CH;
                     let CHatividade = Math.ceil(CH/2);
 
-                    let salario = Math.round((CH * 153.05)*(diasTrab/diasMes),2);
+                    let salario = Math.round((CH * 152,992222222222)*(diasTrab/diasMes),2);
                     //console.log([vinculo,CH,codEscola,escola,processo,tipo,funcao,ini,fin]);
                     output.push([vinculo,codEscola,escola,processo,tipo,funcao,ini,fin,diasTrab,CH,CHatividade,"R$ "+salario,"R$ "+salario/2,"R$ "+salario*1.5]);
 
