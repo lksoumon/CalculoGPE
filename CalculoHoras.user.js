@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Calcula horas de atribuição GPE
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @match        http://sigeduca.seduc.mt.gov.br/grh/hwmgrhpainelservidor.aspx
@@ -52,7 +52,7 @@
 
     // Adiciona o botão para executar a função de data
     const executeButtonDate = document.createElement('button');
-    executeButtonDate.innerHTML = 'Executar Função com Data';
+    executeButtonDate.innerHTML = 'Qtde de CH aula no dia';
     executeButtonDate.style.width = '100%';
     executeButtonDate.style.padding = '10px';
     executeButtonDate.style.backgroundColor = '#28a745';
@@ -144,7 +144,7 @@
 
     // Adiciona o botão para executar a função de mês
     const executeButtonMonth = document.createElement('button');
-    executeButtonMonth.innerHTML = 'Executar Função com Mês';
+    executeButtonMonth.innerHTML = 'Calcular salário estimado no Mês';
     executeButtonMonth.style.width = '100%';
     executeButtonMonth.style.padding = '10px';
     executeButtonMonth.style.backgroundColor = '#dc3545';
