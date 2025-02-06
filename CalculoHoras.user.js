@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Calcula horas de atribuição GPE
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @match        http://sigeduca.seduc.mt.gov.br/grh/hwmgrhpainelservidor.aspx
