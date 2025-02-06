@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Calcula horas de atribuição GPE
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @match        http://sigeduca.seduc.mt.gov.br/grh/hwmgrhpainelservidor.aspx
@@ -173,7 +173,7 @@
                 if(countDaysInMonth(ini,fin,mes)>0){
                     console.log(i,ini,fin,mes,countDaysInMonth(ini,fin,mes));
                     let diasTrab = countDaysInMonth(ini,fin,mes);
-                    let diasMes = getDaysInMonth(mes,2024);
+                    let diasMes = getDaysInMonth(mes,2025);
                     let CH = parseInt(document.getElementById("span_GRHATRTOTALCHATRIBUIDA_"+itabela+"0001").innerText.trim());
                     let codEscola = document.getElementById("span_GERLOTCOD_"+itabela+"0001").innerText.trim();
                     let escola = document.getElementById("span_GERLOTNOM_"+itabela+"0001").innerText.trim();
