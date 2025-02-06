@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Calcula horas de atribuição GPE
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.4
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @match        http://sigeduca.seduc.mt.gov.br/grh/hwmgrhpainelservidor.aspx
@@ -187,7 +187,7 @@
                     CHtotal = CHtotal + CH;
                     let CHatividade = Math.ceil(CH/2);
 
-                    let salario = Math.round((CH * 152,992222222222)*(diasTrab/diasMes),2);
+                    let salario = Math.round((CH * 152.992222222222)*(diasTrab/diasMes),2);
                     //console.log([vinculo,CH,codEscola,escola,processo,tipo,funcao,ini,fin]);
                     output.push([vinculo,codEscola,escola,processo,tipo,funcao,ini,fin,diasTrab,CH,CHatividade,"R$ "+salario,"R$ "+salario/2,"R$ "+salario*1.5]);
 
