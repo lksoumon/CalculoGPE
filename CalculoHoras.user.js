@@ -7,6 +7,8 @@
 // @match        http://sigeduca.seduc.mt.gov.br/grh/hwmgrhpainelservidor.aspx
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.br
 // @grant        none
+// @downloadURL https://github.com/lksoumon/CalculoGPE/raw/refs/heads/main/CalculoHoras.user.js
+// @updateURL https://github.com/lksoumon/CalculoGPE/raw/refs/heads/main/CalculoHoras.user.js
 // ==/UserScript==
 
 (function() {
